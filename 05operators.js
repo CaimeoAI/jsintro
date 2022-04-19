@@ -23,3 +23,11 @@ console.log(a);
 // pre increment operator [Adds 1 to it's stored value and then output the new value]
 console.log(++a);
 console.log(a);
+
+//TODO unary operator , binary operator
+// the twos are  called operands the plus is called operator
+//! Binary operator needs 2 operands: + - *
+2 + 2
+
+//! Unary operator needs only one operand: ++ -- typeof
+2--
