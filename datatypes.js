@@ -19,8 +19,8 @@
 // null [When you set empty Value to Variable]
 //TODO let var0 = null;
 
-// symbol
-
+// symbol [Unique Value]
+//TODO let var0 = Symbol("a");
 
 // Boolean [True or False]
 //TODO let var1 = false;
