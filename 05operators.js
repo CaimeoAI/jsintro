@@ -37,3 +37,10 @@ console.log(typeof true);
 console.log(typeof 45);
 console.log(typeof undefined);
 console.log(typeof null); //! type of null becomes an object VERY IMPORTANT
+
+//TODO convert any number into string or any string into a number and vice versa
+let num = 23;
+console.log(String(num));
+
+let text = "34";
+console.log(Number(text));
