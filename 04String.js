@@ -8,7 +8,7 @@ console.log("con" + "cati" + "nation");
 
 console.log("My name is " + firstName + " and I am " + age + " years old.");
 
-// Coercion [Converts everything into a string]
+// Coercion [The automatic Conversion of everything into a string]
 
 console.log("2" + 3);
 console.log(2 + "3");
