@@ -25,5 +25,24 @@ let lastName = "Smith";
 
 lastName = "John";
 
-console.log(lastName)
+console.log(lastName);
+
+
+//? Always use const unless you are sure that the value get changed in the future
+
+const firstName = "Bob";
+
+console.log (firstName);
+
+// Variables names should start with character/alphabet ,$ or _(underscore)
+
+//* 3 Case of Defining Variable
+//? camelCase
+// lastName
+
+//? snake_case
+// last_name
+
+//? PascalCase
+// LastName
 
