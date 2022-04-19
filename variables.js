@@ -35,6 +35,13 @@ const firstName = "Bob";
 console.log (firstName);
 
 // Variables names should start with character/alphabet ,$ or _(underscore)
+let $example = "Neo";
+let _example = "Neo";
+let example = "Neo";
+
+// Other characters will result in an error
+let %example = "Neo";
+
 
 //* 3 Case of Defining Variable
 //? camelCase
