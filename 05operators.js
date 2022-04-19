@@ -31,3 +31,9 @@ console.log(a);
 
 //! Unary operator needs only one operand: ++ -- typeof
 2--
+
+console.log(typeof "hello");
+console.log(typeof true);
+console.log(typeof 45);
+console.log(typeof undefined);
+console.log(typeof null); //! type of null becomes an object VERY IMPORTANT
