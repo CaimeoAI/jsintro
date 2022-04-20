@@ -59,7 +59,7 @@ console.log(2<=2); //true
 console.log(3>=3); //true
 console.log(3 == "3"); //javascript willn't check datatype
 console.log(3 === "3"); //false ,javascript will check datatype
-console.log("hello" !== "World") // true
+console.log("hello" !== "World"); // true
 
 let sum = 2+5; // statement
 //* statement : instruction to javascript to do something
