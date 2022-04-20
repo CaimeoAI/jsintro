@@ -26,4 +26,13 @@ console.log(stringExample.indexOf("P")); //* Searches for the String P inside th
 console.log(stringExample.slice(0, 5)); //* method starts at first character and ends at 5th (6th character is exclusive)
 console.log(stringExample.slice(13, -2)); //* for ending positon you can use negative value as well to indicate you want to end the method starting from the end index of the string
 
-//?
+//? subString and substr method
+console.log(stringExample.substring(5)) //*  works a bit like slice but doesn't take negative argument values 
+
+//? splice method
+
+
+//? replace method
+
+
+//
