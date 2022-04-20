@@ -44,3 +44,51 @@ console.log(String(num));
 
 let text = "34";
 console.log(Number(text));
+
+
+
+
+
+//TODO conditional operator
+//? < , > ,<= , >= , != , == abstract comparison , !== , === strict comparison
+
+console.log(1<2); //true
+console.log(1>2); //false
+
+console.log(2<=2); //true
+console.log(3>=3); //true
+console.log(3 == "3"); //javascript willn't check datatype
+console.log(3 === "3"); //false ,javascript will check datatype
+console.log("hello" !== "World") // true
+
+let sum = 2+5; // statement
+//* statement : instruction to javascript to do something
+
+//!expresssion :value itself or anything will become a value is called expression;
+// "hello " + " World "  => hello World
+// 1+2+3+4  => 10 Arithmetic expresssion
+// 1 < 2  => conditional expression
+// 1<2 && 2>1 => logical expression
+
+
+
+//logical operators
+
+// && AND * ,  || OR + , ! NOT
+
+// && 0 1 => 0, 
+//    1 0 => 0,
+//    1 1 => 1,
+//    0 0 => 0
+/* 1<2   and  4>5  */
+console.log(1<2 && 4>5 && 2>3)   // false  => 1 * 0 * 0 = 0
+
+console.log(1<2 || 4>5 || 2>3)   // true  => 1 + 0 + 0 = 1
+console.log(!true) //false
+
+
+
+/* const experience = 1; 
+const degree = true; 
+
+console.log(experience >=1 || degree===true) */
